@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UILabel *sampleSizeFromSlider;
+
+@property (weak, nonatomic) IBOutlet UITextField *valueOfPi;
+- (IBAction)Calculate:(id)sender;
+@property (strong, nonatomic) NSString* piString;
 
 @end
 
