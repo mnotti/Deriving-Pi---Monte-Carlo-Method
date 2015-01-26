@@ -8,10 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController (){
-    int x;
-    int y;
-}
+@interface ViewController ()
 
 @end
 
@@ -24,17 +21,6 @@
 
     
 }
-
-- (void)viewdidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 -(void) generatePointsX:(float* )xPoint andY:(float* ) yPoint{
     *xPoint = ((float)rand() / RAND_MAX) * 1;
